@@ -1,0 +1,32 @@
+
+body{
+    background-color: #4eb55f;
+    color:red;
+    font-size: 36px;
+}
+
+#a{
+    font-size: 100px;
+    color: aqua;
+}
+
+.a{
+    color: darkblue;
+}
+
+p>span{color: darkblue}
+
+p a{color: brown}
+
+
+
+
+
+
+
+
+
+
+
+
+
