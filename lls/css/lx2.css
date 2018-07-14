@@ -3,7 +3,7 @@
     padding: 0;
     margin: 0;
 }
-
+/*头部*/
 
 header{height: 60px;
 }
@@ -22,6 +22,78 @@ header{height: 60px;
     margin-right: 10px;
 }
 .mr18{margin-right: 18px}
+
+
+/*楼层一*/
+
+#A1{
+    height: 940px;
+    background-image: url(../image/1.jpg);
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: cover;
+    text-align: center;
+}
+
+#A11{
+    padding-top: 140px;
+}
+#A12{
+    font-size: 28px;
+    color: #43698f;
+    padding: 30px 0 90px;
+}
+
+#A13{font-size: 0}
+#A13>button{
+    width: 280px;
+    height: 60px;
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 22px;
+    color: #24a9f1;
+    outline: none;
+}
+#A13 span{vertical-align: 4px}
+#A13 i{ font-size: 40px}
+
+#A13>button:active{background-color: #24a9f1}
+
+#A13>button:first-child{margin-right: 22px}
+
+#A1>p{
+    font-size: 18px;
+    color: white;
+    padding: 50px 0 14px;
+}
+#A14 img{height: 200px}
+
+/*楼层二*/
+#B1{height: 1000px;
+    background-color: #4eb55f;}
+#B11{height: 1000px;
+    width: 1200px;
+    background-color: #24a9f1;
+    margin: 0 auto;
+}
+
+#B11 img{padding:150px 0 0 14px }
+#Btxt1{font-size: 36px;
+    color: white;
+}
+#Btxt2{font-size: 18px;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
 
 
 
