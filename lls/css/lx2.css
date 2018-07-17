@@ -2,6 +2,7 @@
 * {
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
 }
 /*Í·²¿*/
 
@@ -188,10 +189,41 @@ header{height: 60px;
     font-size: 12px;  color: #999999;
    padding: 32px 282px 32px 338px;
 }
+/*¸¡²ã*/
+#FC{position: fixed;
+    left: 0%;
+    bottom: 0%;
+    height: 150px;
+    width: 100%;
+    background-color: rgba(0,0,0,0.5);
+    text-align: center;
+    font-size: 0px;
+    padding-top: 20px;
+ }
+#FC>*{vertical-align: middle;}
+#FC>span{ font-size: 18px;
+    color: white;
+}
+#FC>img{width: 110px;
+    vertical-align: middle;
+}
+#FC>button{width: 220px;
+    height: 50px;
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 18px;
+    color: #24a9f1;
+    outline: none;
+}
+#FC i{font-size: 30px;  }
+#fc11{margin-right: 44px }
+#fcb1{margin-right: 32px;}
+#fcb2{
+    margin-right: 86px; }
+#fc12{margin-right: 20px;}
 
-
-
-
+.FF>span{vertical-align: 2px}
 
 
 
